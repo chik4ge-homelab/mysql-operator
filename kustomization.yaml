@@ -7,3 +7,4 @@ resources:
 
 patches:
 - path: ./patch-env.yaml
+- path: ./patch-crd.yaml
