@@ -6,4 +6,4 @@ resources:
 - https://raw.githubusercontent.com/mysql/mysql-operator/9.1.0-2.2.2/deploy/deploy-operator.yaml
 
 patches:
-- path: patch-env.yaml
+- path: ./patch-env.yaml
