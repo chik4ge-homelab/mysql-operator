@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql-operation
+spec:
+  template:
+    spec:
+      containers:
+      - name: mysql-operator
+        env:
+        - name: MYSQL_OPERATOR_K8S_CLUSTER_DOMAIN
+          value: cluster.local
