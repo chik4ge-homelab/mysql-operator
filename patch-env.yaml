@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mysql-operation
+  name: mysql-operator
 spec:
   template:
     spec:
